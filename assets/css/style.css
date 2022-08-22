@@ -1,0 +1,301 @@
+body {
+  font-family: "Mulish";
+  background: #ffffff;
+}
+
+.container {
+  width: 1340px;
+  margin: 56px auto 0;
+}
+.button-1 {
+  background: #458ff6;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 60px;
+  color: #ffffff;
+  border-radius: 55px;
+  padding: 0 43px;
+  border: none;
+}
+.button-2 {
+  border: 1.4px solid #458ff6;
+  border-radius: 55px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 60px;
+  color: #458ff6;
+  width: 200px;
+  background: #ffffff;
+}
+/*head*/
+.header {
+  align-items: center;
+}
+.header .header-navbar {
+  text-align: right;
+}
+.header .header-navbar a:first-child {
+  opacity: 1;
+}
+.header .header-navbar a {
+  margin-right: 43px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #1f1534;
+  opacity: 0.5;
+}
+.line-1 {
+  margin: 0 auto;
+  width: 56px;
+  border-top: 2px solid black;
+}
+.line-2 {
+  width: 56px;
+  border-top: 2px solid black;
+}
+.line-3 {
+  margin: 0 auto;
+  width: 56px;
+  border-top: 2px solid white;
+}
+/*sectipn 1*/
+.section-1 {
+  align-items: center;
+  margin-top: 84px;
+}
+
+.section-1 .content h1 {
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.section-1 .content p {
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 32px;
+  color: #7d7987;
+  margin: 25px 117px 45px 0;
+}
+
+.section-1 .content .button-1 {
+  background: #458ff6;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 60px;
+  color: #ffffff;
+  border-radius: 55px;
+  padding: 0 43px;
+  border: none;
+}
+
+/*section 2*/
+.section-2 {
+  justify-content: center;
+  margin-top: 191px;
+}
+.section-2 .head {
+  text-align: center;
+}
+.section-2 .head h2 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 56px;
+}
+.section-2 .head p {
+  margin: 33px 0 80px;
+}
+
+.section-2 .card {
+  flex-basis: 350px;
+  height: 355px;
+  padding: 54px 45px 47px 39px;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+  border-radius: 20px;
+  margin-left: 36px;
+}
+
+.section-2 .card h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 56px;
+  margin: 23px 0px 1px;
+}
+
+.section-2 .card p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: #7d7987;
+}
+.section-2 .cardlast {
+  margin-bottom: 69px;
+}
+
+/*section 3*/
+.section-3 {
+  margin-top: 221px;
+}
+.section-3 .content {
+  margin-top: 57px;
+  padding-left: 142px;
+  margin-bottom: 265px;
+}
+
+.section-3 .content h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 56px;
+  color: #000000;
+  margin-bottom: 26px;
+}
+
+.section-3 .content p {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: #7d7987;
+  margin: 31px 0px 40px;
+}
+
+/*section 4*/
+.section-4 .content {
+  margin-top: 36px;
+  padding-right: 71px;
+}
+.section-4 .content h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.section-4 .content p {
+  font-size: 18px;
+  line-height: 30px;
+  color: #7d7987;
+  margin: 31px 0px 40px;
+}
+/*section 5*/
+
+.section-5 {
+  background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
+  border-radius: 24px;
+  margin-top: 222px;
+  max-height: 425px;
+}
+
+.section-5 .head {
+  text-align: center;
+  margin: 0 auto;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  /* identical to box height, or 133% */
+
+  color: #ffffff;
+}
+.section-5 .head h2 {
+  margin: 64px 0px 25px;
+}
+
+.section-5 .image {
+  margin: 66px 29px 79px 118px;
+}
+
+.section-5 .name h3 {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 48px;
+  color: #ffffff;
+  margin-top: 97px;
+}
+
+.section-5 .name p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 48px;
+  color: rgba(255, 255, 255, 0.85);
+  padding-bottom: 5px;
+}
+.section-5 .content {
+  flex-basis: 420px;
+}
+
+.section-5 .content p {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.9);
+  margin: 77px 0px 0px 69px;
+}
+
+/*section 6*/
+.section-6 .content {
+  column-gap: 34px;
+  justify-content: center;
+}
+.section-6 .head {
+  text-align: center;
+  margin: 0px auto;
+}
+
+.section-6 .head h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 56px;
+  margin: 270px 0px 26px;
+}
+
+.section-6 .card {
+  flex-basis: 350px;
+  height: 512px;
+  box-shadow: 10px 40px 50px rgb(229 233 246 / 40%);
+  border-radius: 20px;
+  background: #ffffff;
+  margin-top: 72px 69px;
+}
+.section-6 .card h3 {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 32px;
+  padding: 21px 67px 12px 33px;
+}
+.section-6 .card p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: #7d7987;
+  padding: 0 61px 25px 33px;
+}
+.section-6 .card a {
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 28px;
+  color: #4089ed;
+  padding: 0 0 35px 33px;
+}
+.section-6 .button .button-2 {
+  margin: 72px auto 202px;
+}
+
+footer {
+  width: 1600px;
+  height: 487.56px;
+  left: 0px;
+  top: 5380px;
+  background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
+}
+span {
+  font-size: 26px;
+  line-height: 33px;
+  padding: 5px 15px;
+  border-radius: 50%;
+  margin-right: 13px;
+}
+footer .content h2{
+  background: #ffffff;
+  color: #5B9BF3;
+}
