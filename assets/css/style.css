@@ -236,6 +236,7 @@ body {
 .section-6 .content {
   column-gap: 34px;
   justify-content: center;
+  margin-top: 72px;
 }
 .section-6 .head {
   text-align: center;
@@ -282,7 +283,8 @@ body {
 }
 
 footer {
-  width: 1600px;
+  padding: 68px 130px;
+  width: 100%;
   height: 487.56px;
   left: 0px;
   top: 5380px;
@@ -295,7 +297,34 @@ span {
   border-radius: 50%;
   margin-right: 13px;
 }
-footer .content h2{
+footer p {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 38px;
+  color: #ffffff;
+  margin:20px 0 34px
+}
+footer .container{
+  column-gap: 50px;
+  justify-content: flex-end;
+}
+footer .content h2 span {
   background: #ffffff;
-  color: #5B9BF3;
+  color: #5b9bf3;
+}
+
+footer .content h2 {
+  color: #ffffff;
+  
+}
+footer .container .list ul li a {
+  font-size: 18px;
+  line-height: 38px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+footer .container .list ul li:nth-child(1) a {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 60px;
 }
